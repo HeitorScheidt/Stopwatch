@@ -74,7 +74,6 @@ function resetFunc(){
     milliseconds = 0;
     count = 1;
 
-    //
     hour.textContent = textFormat(hours)
     minute.textContent = textFormat(minutes)
     second.textContent = textFormat(seconds)
@@ -104,7 +103,7 @@ function getParcial(){
         newTh.remove();
     }
 
-    newTh.textContent = `Parcial ${count++}| ${datei} até  ${datef} | `;    //text in th
+    newTh.textContent = `Parcial ${count++}| ${datei} até  ${datef} - ${dayPorcentage().toFixed(3)}% | `;    //text in th
     
     /*Add the dinamics HTML tags at screen*/
     newTh.appendChild(icon);
