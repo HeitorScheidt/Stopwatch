@@ -68,3 +68,15 @@ button{
     margin-bottom: 15px;
     padding: 5px;
 }
+
+input{
+    border: none;
+    background-color: transparent;
+    
+    height: 30px;
+    font-size: 28px;
+}
+
+#inputYear{
+    width: 80px;
+}
